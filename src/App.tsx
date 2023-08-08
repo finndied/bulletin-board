@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
+import Newsletter from './components/Newsletter/Newsletter'
 
 const App: FC = () => {
 	const handlePlaceAdClick = () => {}
@@ -14,6 +15,7 @@ const App: FC = () => {
 				onPlaceAdClick={handlePlaceAdClick}
 				onMyAdsClick={handleMyAdsClick}
 			/>
+      <Newsletter/>
 		</div>
 	)
 }
